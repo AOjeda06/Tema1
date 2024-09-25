@@ -6,7 +6,7 @@ public class Ej15 {
 
 	public static void main(String[] args) {
 		// Declarar la constante IVA
-		double IVA = 21.0;
+		final double IVA = 21.0;
 
 		// Configuramos el scanner
 		Scanner scanner = new Scanner(System.in);
