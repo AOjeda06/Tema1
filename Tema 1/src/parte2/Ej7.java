@@ -8,19 +8,21 @@ public class Ej7 {
 
 		Scanner scanner = new Scanner(System.in); // Configuramos el scanner
 
-		// Precios de las entradas
+		// Declaramos variables
 		double precioInfantil = 15.50;
 		double precioAdulto = 20.00;
+		int numInfantiles, numAdultos;
+		double total;
 
 		// Solicitar el número de entradas infantiles y de adultos
 		System.out.print("Introduce el número de entradas infantiles: ");
-		int numInfantiles = scanner.nextInt();
+		numInfantiles = scanner.nextInt();
 
 		System.out.print("Introduce el número de entradas de adultos: ");
-		int numAdultos = scanner.nextInt();
+		numAdultos = scanner.nextInt();
 
 		// Calcular el importe total
-		double total = (numInfantiles * precioInfantil) + (numAdultos * precioAdulto);
+		total = (numInfantiles * precioInfantil) + (numAdultos * precioAdulto);
 
 		// Aplicar descuento si el importe total es igual o superior a 100€
 		if (total >= 100) {

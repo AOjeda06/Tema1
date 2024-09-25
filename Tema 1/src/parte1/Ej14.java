@@ -9,19 +9,23 @@ public class Ej14 {
 		// Configuramos el scanner
 		Scanner scanner = new Scanner(System.in);
 
+		// Declaramos las variables
+		int nota1, nota2, nota3, notaMediaEntera;
+		double notaMediaDecimal;
+
 		// Pide las notas de los tres trimestres
 		System.out.print("Introduce la nota del primer trimestre: ");
-		int nota1 = scanner.nextInt();
+		nota1 = scanner.nextInt();
 		System.out.print("Introduce la nota del segundo trimestre: ");
-		int nota2 = scanner.nextInt();
+		nota2 = scanner.nextInt();
 		System.out.print("Introduce la nota del tercer trimestre: ");
-		int nota3 = scanner.nextInt();
+		nota3 = scanner.nextInt();
 
 		// Calcular la nota media con decimales
-		double notaMediaDecimal = (nota1 + nota2 + nota3) / 3.0;
+		notaMediaDecimal = (nota1 + nota2 + nota3) / 3.0;
 
 		// Calcular la nota media entera convirtiendo la variable
-		int notaMediaEntera = (int) notaMediaDecimal;
+		notaMediaEntera = (int) notaMediaDecimal;
 
 		// Devuelve los resultados
 		System.out.println("Nota media para el boletín de calificaciones (entera): " + notaMediaEntera);

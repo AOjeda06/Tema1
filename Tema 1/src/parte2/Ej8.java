@@ -6,13 +6,17 @@ public class Ej8 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in); // Configuramos el scanner
+		
+		// Declaramos variables
+		double longitudMetros;
+		int longitudCentimetros;
 
 		// Solicitar la longitud del lanzamiento en metros y declaramos variable
 		System.out.print("Introduce la longitud del lanzamiento en metros: ");
-		double longitudMetros = scanner.nextDouble();
+		longitudMetros = scanner.nextDouble();
 
 		// Convertir la longitud a centímetros
-		int longitudCentimetros = (int) (longitudMetros * 100);
+		longitudCentimetros = (int) (longitudMetros * 100);
 
 		// Mostrar la parte entera en centímetros
 		System.out.println(
