@@ -23,6 +23,9 @@ public class Ej15 {
 
 		// Mostrar el precio final
 		System.out.printf("El precio final con IVA es: " + precioConIVA);
+		
+		scanner.close(); // Cierra el scanner
+
 	}
 
 }

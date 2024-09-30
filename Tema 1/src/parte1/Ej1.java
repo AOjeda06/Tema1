@@ -10,6 +10,7 @@ public class Ej1 {
 		Scanner sc = new Scanner(System.in); // declaramos el scanner
 		numero = sc.nextInt(); // configuramos que lea el scanner el siguiente int
 		System.out.println("Usted ha introducido el número " + numero); // devuelve la respuesta
+		sc.close(); // Cierra el scanner
 
 	}
 

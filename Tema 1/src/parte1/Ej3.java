@@ -13,6 +13,8 @@ public class Ej3 {
 		añoNacimiento = sc.nextInt(); //lee el año
 		System.out.println("Usted tiene " + (añoActual - añoNacimiento) + " años."); //devuelve la edad +1
 
+		sc.close(); // Cierra el scanner
+
 	}
 
 }

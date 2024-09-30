@@ -11,6 +11,8 @@ public class Ej2 {
 		edad = sc.nextInt(); // ponemos que lea por teclado el proximo int
 		System.out.println("Usted el año que viene tendrá " + (edad + 1) + " años."); // devuelve la edad +1
 
+		sc.close(); // Cierra el scanner
+
 	}
 
 }

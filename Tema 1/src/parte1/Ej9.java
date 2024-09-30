@@ -13,5 +13,7 @@ public class Ej9 {
 		esMayorDeEdad = edad >= 18; // declaramos el booleano
 		System.out.println("¿Es mayor de edad? " + esMayorDeEdad); // devuelve la respuesta
 
+		sc.close(); // Cierra el scanner
+
 	}
 }

@@ -27,6 +27,9 @@ public class Ej12 {
 
 		// Devuelve el importe total
 		System.out.printf("El importe total anual es: " + importeTotal);
+		
+		scanner.close(); // Cierra el scanner
+
 
 	}
 

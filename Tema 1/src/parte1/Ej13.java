@@ -27,6 +27,9 @@ public class Ej13 {
 
 		// Mostrar el resultado
 		System.out.println("¿Puedes salir a la calle? " + puedeSalir);
+		
+		scanner.close(); // Cierra el scanner
+
 	}
 
 }

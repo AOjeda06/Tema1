@@ -16,6 +16,9 @@ public class Ej10 {
 									// el teclado
 		esPar = (numero % 2 == 0); // declaramos el booleano
 		System.out.println("¿El número es par? " + esPar); // devuelve la respuesta
+		
+		scanner.close(); // Cierra el scanner
+
 
 	}
 

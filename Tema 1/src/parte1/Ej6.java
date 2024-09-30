@@ -21,7 +21,7 @@ public class Ej6 {
 																													// multiplicacion
 		System.out.println("El resultado de la division del primer numero por el segundo número es: " + division); // devuelve
 																													// la
-																													// division
+		sc.close(); // Cierra el scanner																									// division
 
 	}
 }

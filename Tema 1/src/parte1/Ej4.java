@@ -12,6 +12,8 @@ public class Ej4 {
 		numero2 = sc.nextFloat(); // lee el segundo numero
 		System.out.println("La media de los dos números es: " + ((numero1 + numero2) / 2)); // devuelve su respuesta
 
+		sc.close(); // Cierra el scanner
+
 	}
 
 }

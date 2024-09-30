@@ -14,6 +14,8 @@ public class Ej8 {
 		edad = sc.nextInt(); // lee el teclado
 		System.out.println("“Hola " + nombre + ", tienes " + edad + " años, ¡qué mayor eres!”. \r\n"); // devuelve la
 																										// respuesta
+		sc.close(); // Cierra el scanner
+
 	}
 
 }

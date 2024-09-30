@@ -30,6 +30,9 @@ public class Ej14 {
 		// Devuelve los resultados
 		System.out.println("Nota media para el boletín de calificaciones (entera): " + notaMediaEntera);
 		System.out.println("Nota media para el expediente académico (con decimales): " + notaMediaDecimal);
+		
+		scanner.close(); // Cierra el scanner
+
 	}
 
 }

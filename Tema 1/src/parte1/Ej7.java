@@ -18,6 +18,8 @@ public class Ej7 {
 		System.out.println("DIRECCION: " + direccion); // devuelve la info
 		System.out.println("NUMERO DE TELEFONO: " + numerotlf); // devuelve la info
 
+		sc.close(); // Cierra el scanner
+
 	}
 
 }

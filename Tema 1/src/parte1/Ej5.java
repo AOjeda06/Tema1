@@ -11,5 +11,8 @@ public class Ej5 {
 		area = (radio*radio*Math.PI); //calcula el area
 		longitud = (radio*2*Math.PI); //calcula la longitud
 		System.out.println("El área es: " + area + " y la longitud es: " + longitud); //devuelve la respuesta
+		
+		sc.close(); // Cierra el scanner
+
 	}
 }

@@ -14,6 +14,8 @@ public class Ej11 {
 		numero = scanner.nextInt(); // declaramos la variable, y hacemos que se le asigne como valor lo que lea por
 		cambio = numero * 166; // calculamos el valor de la variable
 		System.out.println("Eso equivale a " + cambio + " pesetas."); // devuelve la respuesta
+		scanner.close(); // Cierra el scanner
+
 
 	}
 
