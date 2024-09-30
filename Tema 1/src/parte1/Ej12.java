@@ -6,8 +6,8 @@ public class Ej12 {
 
 	public static void main(String[] args) {
 		// Declaramos variables
-		double PRECIO_MANZANAS = 2.35;
-		double PRECIO_PERAS = 1.95;
+		final double PRECIO_MANZANAS = 2.35;
+		final double PRECIO_PERAS = 1.95;
 		double kilosManzanas, kilosPeras, totalManzanas, totalPeras, importeTotal;
 
 		// Configuramos el scanner
