@@ -13,6 +13,7 @@ public class Ej7 {
 		double precioAdulto = 20.00;
 		int numInfantiles, numAdultos;
 		double total;
+		double precioFinal;
 
 		// Solicitar el número de entradas infantiles y de adultos
 		System.out.print("Introduce el número de entradas infantiles: ");
@@ -24,14 +25,11 @@ public class Ej7 {
 		// Calcular el importe total
 		total = (numInfantiles * precioInfantil) + (numAdultos * precioAdulto);
 
-		// Aplicar descuento si el importe total es igual o superior a 100€
-		if (total >= 100) {
-			total *= 0.95; // Aplicar un descuento del 5%
-			System.out.println("Su precio final ha recibido un 5% de descuento y es: " + total);
-		} else
+		// Calcula si hay descuento
+		precioFinal = total >= 100 ? total * 0.95 : total;
 
-			// Mostrar el importe total
-			System.out.printf("El importe total a cobrar es: " + total);
+		// Mostrar el importe total
+		System.out.printf("El importe total a cobrar es: " + precioFinal);
 
 		scanner.close(); // Cierra el scanner
 	}
