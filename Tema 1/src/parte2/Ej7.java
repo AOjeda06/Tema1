@@ -9,8 +9,8 @@ public class Ej7 {
 		Scanner scanner = new Scanner(System.in); // Configuramos el scanner
 
 		// Declaramos variables
-		double precioInfantil = 15.50;
-		double precioAdulto = 20.00;
+		final double PRECIOINFANTIL = 15.50;
+		final double PRECIOADULTO = 20.00;
 		int numInfantiles, numAdultos;
 		double total;
 		double precioFinal;
@@ -23,7 +23,7 @@ public class Ej7 {
 		numAdultos = scanner.nextInt();
 
 		// Calcular el importe total
-		total = (numInfantiles * precioInfantil) + (numAdultos * precioAdulto);
+		total = (numInfantiles * PRECIOINFANTIL) + (numAdultos * PRECIOADULTO);
 
 		// Calcula si hay descuento
 		precioFinal = total >= 100 ? total * 0.95 : total;
